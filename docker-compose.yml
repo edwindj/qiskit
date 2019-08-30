@@ -4,6 +4,6 @@ services:
      build: .
 #     image: flaviostutz/ibm-qiskit
      ports:
-      - "18888:8888"
+      - "8888:8888"
      volumes:
       - ./qiskit-iqx-tutorials/qiskit:/home/jovyan/qiskit
