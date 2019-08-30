@@ -6,4 +6,4 @@ services:
      ports:
       - "8888:8888"
      volumes:
-      - ./qiskit-iqx-tutorials/qiskit:/home/jovyan/qiskit
+      - ./qiskit-iqx-tutorials:/home/jovyan
