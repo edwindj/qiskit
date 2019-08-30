@@ -22,7 +22,7 @@ or plain docker
 
 ```
 sudo docker build -t qiskit .
-sudo docker run --rm -d -v $PWD/qiskit-iqx-tutorials/qiskit:/home/jovyan/qiskit -p 8888:8888 qiskit
+sudo docker run --rm -d -v $PWD/qiskit-iqx-tutorials:/home/jovyan -p 8888:8888 qiskit
 ```
 A jupyter notebook with qiskit-tutorial installed will be running on http://localhost:8888.
 
