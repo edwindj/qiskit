@@ -9,7 +9,7 @@ This repo contains a Dockerfile that builds docker image with the qiskit tutoria
 1) Download this repo:
 
 ```
-git clone git@github.com:edwindj/qiskit 
+git clone https://github.com/edwindj/qiskit 
 ```
 
 2) Run the container (with docker-compose)
